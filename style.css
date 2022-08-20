@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    flex: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 66px;
+    padding-right: 66px;
+    background-color: darkcyan;
+    color: wheat;
+
+}
+.link.one {
+    margin-left: auto;
+}
+.link {
+    padding: 10px;
+}
+.logo {
+    font-weight: bold;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+    padding: 44px;
+}
+.main-head {
+    color: white;
+}
+.para-left {
+    color: whitesmoke;
+    opacity: 80%;
+}
+.left-main {
+    max-width: 250px;
+
+}
+.place-holder {
+    background-color: darkmagenta;
+
+}
+button {
+    background-color: darkgoldenrod;
+    border-radius: 27%;
+    border: 6px;
+    height: auto;
+    width: auto; 
+    margin: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px;
+    transition: all 0.5s ease-in-out;
+}
+button:hover {
+    background-color: brown;
+    color: wheat;
+    transform: scale(1.5);
+}
+button:active {
+    transform: scale(.75);
+    background-color: peachpuff;
+}
+.second-container {
+    background-color: papayawhip;
+    display: flex;
+    justify-content: space-around;
+    gap: 34px;
+    flex: 1 1 auto;
+    padding: 120px;
+}
+.info {
+    max-height: auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.third {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: burlywood;
+}
+.quote {
+    font-style: italic;
+}
+.author {
+    margin-left: auto;
+    font-weight: 700;
+}
+.fourth {
+    display: flex;
+    background-color: papayawhip;
+    padding: 80px;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    padding: 25px;
+    width: 1000px;
+}
+.inside-foot {
+    margin-right: auto;
+}
+.button2 {
+    margin-left: auto;
+}
